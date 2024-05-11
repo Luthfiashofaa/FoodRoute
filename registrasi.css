@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* HEADER I*/
+.head-1{
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+    margin-top: 50px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.head-1 nav{
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-1 nav img{
+    height: 70px;
+}
+
+.head-1 nav .title{
+    text-align: center;
+    padding-right: 200px;
+    color: rgb(228, 228, 228);
+}
+/* HEADER I*/
+
+
+
+/* HEADER II */
+.head-2 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.head-2 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+/* HEADER II */
+
+/* FORM A */
+
+.head-5 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.head-5 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+.kiri-kanan{
+    display: flex;
+    padding: 20px;
+    font-size: 16px;
+    margin: 0 50px;
+    height: 85h;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+.kiri{
+    box-sizing: border-box;
+    /* margin: 30px; */
+    width: 45%;
+}
+
+.kiri .form{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.kiri .form .input{
+    width: 500px;
+    margin-top: 35px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kiri .form .blue{
+    color: blue;
+}
+
+.kiri .kotak .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.kiri .kotak{
+    display: flex;
+    font-weight: bold;
+    margin-top: 30px;
+    /* width: 70%; */
+    /* background-color: aqua; */
+    /* justify-content: center; */
+}
+
+.kiri .kotak .input{
+    width: 300px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+    /* position: absolute;
+    right: 0; */
+}
+
+.kiri .kotak .blue{
+    color: blue;
+}
+
+.kiri .kotak .input-efek{
+    width: 260px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+}
+
+.kiri .kotak .input-cos{
+    width: 320px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+}
+
+.kiri .pilihan{
+    display: flex;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    /* justify-content: space-evenly; */
+    width: 90%;
+    height: 150px;
+}
+
+.kiri .pilihan .ket{
+    font-weight: bold;
+}
+
+.kiri .pilihan .ket .blue{
+    color: blue;
+}
+
+.kiri .pilihan .pil{
+    font-weight: bold;
+}
+
+.kiri .pilihan .pil .pil-satu,.pil-dua{
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.kiri .pilihan .pil .pil-dua{
+    padding-top: 15px;
+    /* margin-left: 15px; */
+}
+
+.kiri .pilihan .pil .pil-satu .blue{
+    color: blue;
+}
+
+.kiri .pilihan .pil .pil-dua .blue{
+    color: blue;
+}
+
+
+
+
+
+
+.kanan{
+    box-sizing: border-box;
+    /* margin: 30px; */
+    width: 45%;
+}
+
+.kanan .form{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.kanan .form .input{
+    width: 500px;
+    margin-top: 35px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kanan .form .blue{
+    color: blue;
+}
+
+.kanan .kotak .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.kanan .kotak{
+    display: flex;
+    font-weight: bold;
+    margin-top: 30px;
+    /* width: 70%; */
+    /* background-color: aqua; */
+    /* justify-content: center; */
+}
+
+.kanan .kotak .input{
+    width: 300px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+    /* position: absolute;
+    right: 0; */
+}
+
+.kanan .kotak .blue{
+    color: blue;
+}
+
+.kanan .kotak .input-efek{
+    width: 260px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+}
+
+.kanan .kotak .input-cos{
+    width: 320px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+}
+
+.kanan .pilihan{
+    display: flex;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    /* justify-content: space-evenly; */
+    width: 90%;
+    height: 150px;
+}
+
+.kanan .pilihan .ket{
+    font-weight: bold;
+}
+
+.kanan .pilihan .ket .blue{
+    color: blue;
+}
+
+.kanan .pilihan .pil{
+    font-weight: bold;
+}
+
+.kanan .pilihan .pil .pil-satu,.pil-dua{
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.kanan .pilihan .pil .pil-dua{
+    padding-top: 15px;
+    /* margin-left: 15px; */
+}
+
+.kanan .pilihan .pil .pil-satu .blue{
+    color: blue;
+}
+
+.kanan .pilihan .pil .pil-dua .blue{
+    color: blue;
+}
+/* FORM A */
+
+
+/* FORM B */
+
+/* HEAD B */
+
+
+
+.head-3 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.head-3 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+/* HEAD B */
+
+.pilihan-b{
+    height: 40px;
+    margin: 0 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-weight: bold;
+}
+
+.pilihan-b .giro{
+    display: flex;
+    /* background-color: aqua; */
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pilihan-b .blue{
+    color: blue;
+}
+
+.pilihan-b .giro input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.pilihan-b .giro .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.pilihan-b .giro .c3 input{
+    width: 25px;
+    height: 25px;
+}
+
+.pilihan-b .tapres{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pilihan-b .tapres .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.pilihan-b .tapres input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.pilihan-b .bca{
+    display: flex;
+    /* background-color: aqua; */
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pilihan-b .bca input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.pilihan-b .bca .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.pilihan-b .bca .c3 input{
+    width: 25px;
+    height: 25px;
+}
+/* FORM B */
+
+/* FORM C */
+
+/* HEAD C */
+.head-4 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.head-4 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+/* HEAD C */
+
+.indi{
+    display: flex;
+    padding: 20px;
+    font-size: 16px;
+    margin: 0 50px;
+    height: 200vh;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+.indi .kiri{
+    box-sizing: border-box;
+    /* margin: 30px; */
+    width: 45%;
+    /* background-color: blue; */
+}
+
+.indi .kiri .senja{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.kiri .senja .input{
+    width: 500px;
+    margin-top: 35px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kiri .senja .blue{
+    color: blue;
+}
+
+.kiri .senja-dua{
+    display: flex;
+}
+
+.indi .kiri .kotak input{
+    width: 430px;
+}
+
+.indi .kiri .senja-dua{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.indi .kiri .senja-dua .kiri{
+    display: flex;
+    /* margin-right: 18px; */
+}
+
+.kiri .senja-dua .kiri{
+    width: 50%;
+    margin-right: 15px;
+}
+
+.kiri .senja-dua .kanan{
+    width: 50%;
+}
+
+.indi .kiri .senja-dua .kiri .input{
+    height: 20px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kanan .count{
+    height: 20px;
+    width: 200px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kanan .input{
+    height: 20px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kanan{
+    display: flex;
+}
+
+.indi .kiri .senja-dua .kanan .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.indi .kiri .senja-dua .kanan .neg{
+    width: 155px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kiri .tra{
+    color: rgba(0, 0, 0, 0);
+}
+
+.indi .kiri .senja-dua .kiri .blue{
+    color: blue;
+}
+
+.indi .kiri .senja-dua .kanan .blue{
+    color: blue;
+}
+
+.indi .kiri .baru{
+    display: flex;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.indi .kiri .baru .label{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.indi .kiri .baru .label .blue{
+    color: blue;
+}
+
+.indi .kiri .baru .ip-ket{
+    display: flex;
+    flex-direction: column;
+}
+
+.indi .kiri .baru .ip-ket input{
+    width: 330px;
+    border: none;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5px;
+}
+
+.indi .kiri .baru .ip-ket {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.indi .kiri .baru .ip-ket .blue{
+    color: blue;
+}
+/* FORM C */
+
+.datetime-picker {
+    margin-top: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .datetime-picker select {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .datetime-picker span {
+    margin: 0 5px;
+  }
+  
+  .label.ambil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.label.ambil label {
+    margin-bottom: 5px; /* Jarak antara label */
+}
+
+.waktu .form {
+    display: flex;
+    flex-direction: row; /* Mengatur elemen secara horizontal */
+    flex-wrap: wrap; /* Mengizinkan elemen untuk melingkar ketika lebar layar terlalu kecil */
+}
+
+.waktu .form label {
+    margin-right: 10px; /* Memberi jarak antara label */
+}
+
